@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <script src="../js/jquery-3.2.1.js"></script>
+	<script src="../js/jquery-ui.js"></script>
+	<title>Mobile</title>
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">
+	<link rel="shortcut icon" type="image/x-icon" href="../resource/mobile.jpg"/>
+</head>
+
+
+<body>
+<div class="wrapper">
+	<!-- <audio autoplay loop>
+    	<source src="../resource/space.mp3" type="audio/mpeg">
+   	</audio> -->
+	<header class="header"><span>Mobile phone buyer survey</span></header>
+	
+	<article class="article">
+		 <form id="form" method="post" onsubmit ="return valid()">
+		 	<div style="margin-top: 13px; color: white">Please fill in the form below</div>
+        <table cellpadding="3">
+
+		<tr>
+                <td>Enter the year of birth:</td>
+                <td><input id="birth" type="text" name="year" style=" width: 160px;"><br></td>
+         </tr>
+
+         <tr>
+                <td>Enter the university:</td>
+                <td><input id="university" type="text" name="university" style=" width: 160px;"><br></td>
+         </tr>
+
+         <tr>
+                <td>Enter the faculty:</td>
+                <td><input id="faculty" type="text" name="faculty" style=" width: 160px;"><br></td>
+        </tr>
+
+         <tr>
+                <td>Not for entering:</td>
+                <td><input id="auto" type="text" name="auto" style=" width: 160px;" disabled="disabled"><br></td>
+         </tr>
+            
+
+        <tr>
+                <td>Text size</td>
+                <td>
+                    <input type="radio" class="textSize" name="textSize" value="10">10
+                    <input type="radio" class="textSize" name="textSize" value="12">12
+                    <input type="radio" class="textSize" name="textSize" value="14" checked>14
+                    <input type="radio" class="textSize" name="textSize" value="16">16
+                    <input type="radio" class="textSize" name="textSize" value="18">18
+                </td>
+        </tr>	
+
+        <tr>
+                <td style="border-bottom: none">
+                    <input type="Button" value="Button 1" id="firstButton">
+                </td>
+
+                <td style="border-bottom: none">
+                    <input type="Button" value="Button 2" id="secondButton">
+                </td>
+
+                <td style="border-bottom: none">
+                    <input type="reset" value="sendButton 3" id="lastButton">
+                </td>
+        </tr>
+        </table>
+    </form>
+	</article>
+
+	<nav class="navigation">
+		<a href="index.html">Main</a>
+	</nav>	
+
+	<aside class="aside">
+		<p>Rate:</p>
+		<ul>
+			<li><a href="#">Samsung</a></li>
+			<li><a href="#">Apple</a></li>
+			<li><a href="#">Huawei</a></li>
+			<li><a href="#">Oppo</a></li>
+			<li><a href="#">Vivo</a></li>
+		</ul>
+	</aside>
+    <div id="dd"></div>
+	<footer class="footer"><img src="../resource/footer.jpg" style="width: 25%; min-height: 150px; max-height: 150px; margin-top: 10px;"></footer>
+</div>
+<script src="../JS/script.js"></script>
+
+</body>
+</html>
